@@ -1,0 +1,9 @@
+[package]
+name = "test-pyo3"
+version = "0.1.0"
+authors = ["pandaman64 <kointosudesuyo@infoseek.jp>"]
+edition = "2018"
+
+[dependencies]
+pyo3 = { version = "0.5", features = ["python3"] }
+
